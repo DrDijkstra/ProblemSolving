@@ -2,20 +2,22 @@ import Foundation
 
 class Solution {
     func maxProduct(_ nums: [Int]) -> Int {
-        var res = 0
 
-        var maxProductNumTillNth:Int = 1
+        var maxProductNumTillNth:Int = nums[0]
         
-        var minProductNumTillNth:Int = 1
-        var resultMax = -1001
-        for num in nums{
+        var minProductNumTillNth:Int = nums[0]
+        var resultMax = nums[0]
+        for i in 1 ..< nums.count{
 
 
 
-            let tempMin = maxProductNumTillNth
+            let currMin = minProductNumTillNth
+            let currMax = maxProductNumTillNth
+
+            //print("sanjay",i,currMin, currMax)
             
-            maxProductNumTillNth = max(num, temp)
-            minProductNumTillNth = min(num, temp)
+            maxProductNumTillNth = max(nums[i], max(nums[i] * currMax, nums[i] * currMin))
+            minProductNumTillNth = min(nums[i], min(nums[i] * currMin, nums[i] * currMax))
 
 
             resultMax = max(resultMax, maxProductNumTillNth)
@@ -28,6 +30,6 @@ class Solution {
 }
 
 
-var arr :[Int] = [-2,3,-4]
+var arr :[Int] = [-1,-2,-9,-6]
 var sol = Solution()
 print(sol.maxProduct(arr))
