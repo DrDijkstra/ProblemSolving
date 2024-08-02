@@ -1,0 +1,13 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/sanjaydey/Documents/github/ProblemSolving/LeetCode/c++/adddigits'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003C4C, symSize: 0x5C }
+  - { offsetInCU: 0x4A8D, offset: 0x4A8D, size: 0x8, addend: 0x0, symName: __ZNSt3__14endlB8ue170006IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_, symObjAddr: 0x190, symBinAddr: 0x100003DDC, symSize: 0x58 }
+  - { offsetInCU: 0x4ACD, offset: 0x4ACD, size: 0x8, addend: 0x0, symName: __ZNSt3__19use_facetB8ue170006INS_5ctypeIcEEEERKT_RKNS_6localeE, symObjAddr: 0x26C, symBinAddr: 0x100003EB8, symSize: 0x2C }
+  - { offsetInCU: 0x77B6, offset: 0x77B6, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003C4C, symSize: 0x5C }
+  - { offsetInCU: 0x7808, offset: 0x7808, size: 0x8, addend: 0x0, symName: __ZN8Solution9addDigitsEi, symObjAddr: 0x5C, symBinAddr: 0x100003CA8, symSize: 0x108 }
+  - { offsetInCU: 0x791F, offset: 0x791F, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsB8ue170006EPFRS3_S4_E, symObjAddr: 0x164, symBinAddr: 0x100003DB0, symSize: 0x2C }
+  - { offsetInCU: 0x7951, offset: 0x7951, size: 0x8, addend: 0x0, symName: __ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE5widenB8ue170006Ec, symObjAddr: 0x1E8, symBinAddr: 0x100003E34, symSize: 0x84 }
+  - { offsetInCU: 0x79BD, offset: 0x79BD, size: 0x8, addend: 0x0, symName: __ZNKSt3__15ctypeIcE5widenB8ue170006Ec, symObjAddr: 0x298, symBinAddr: 0x100003EE4, symSize: 0x38 }
+...
